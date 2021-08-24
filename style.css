@@ -1,0 +1,68 @@
+*{
+    color: white;
+    background-color: black;
+}
+
+header {
+    display: grid;
+    grid-template-areas: "aside nav article";
+    grid-template-columns: repeat(3,1fr);
+}
+article {
+    grid-area: article;
+    position:absolute;
+    right: 0px;
+}
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    display:grid;
+    grid-template-areas: "section figure";
+    text-align: center;
+    
+    
+}
+
+section {
+    grid-area: section;
+    padding-bottom: 100px;
+
+}
+
+figure {
+    grid-area: figure;
+}
+
+#slogan {
+    text-align:center;
+    margin-left: 50%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.logoSizes {
+    width: 150px;
+    height: 150px;
+}
+
+.sectionPadding {
+    padding: 50px;
+}
+
+.buttonPadding {
+    margin: 50px;
+}
+
+
+
+
+
